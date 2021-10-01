@@ -2,36 +2,26 @@
 💻 CovSeq 
 </h1>
 
-<p id="CovSeq">
+<p id="CovSeq" align="center">
 <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg"> Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
 
 ---
 
-<p>
-   
-   
-</p>
-
 <h2 id="nextclade" align="center">
 🐋 Nextclade Analysis
 </h2>
 
-<p>
+<p align="center">
 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
-<p>
+<p align="center">
 <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">  Viral genome clade assignment, mutation calling, and sequence quality checks.
 </p> 
  
-<p>
-   
-   
-</p>
- 
-<h3 id="prerequis" align="center">
+<h3 id="prerequis">
 📦 Requirements
 </h3>
 
@@ -52,10 +42,6 @@ Run the docker image of nextclade with multi.fasta file from the latest sars-cov
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-<p>
-   
-   
-</p>
 
 <h2 id="pangolin" align="center">
 🌍 Pangolin Analysis
