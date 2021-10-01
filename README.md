@@ -6,9 +6,9 @@ CovSeq
 💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
-<h2 id="nextclade" align="center">
+<h3 id="nextclade" align="center">
 Nextclade Analysis
-</h2>
+</h3>
 
 <p align="center">
 🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
@@ -18,9 +18,9 @@ Nextclade Analysis
 <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
 </p> 
  
-<h3 id="prerequis" align="center">
+<h4 id="prerequis" align="center">
 📦 Requirements
-</h3>
+</h4>
 
 <p align="center">
    
@@ -42,9 +42,9 @@ Nextclade Analysis
 
 </p>
 
-<h2 id="pangolin" align="center">
+<h3 id="pangolin" align="center">
 🌍 Pangolin Analysis
-</h2>
+</h3>
 
 <p>
    
