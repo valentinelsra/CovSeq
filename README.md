@@ -49,74 +49,21 @@ Processing data from whole-genome sequencing of sars-cov-2.
 </p>
 
 <p align="center">
-  <a href="https://github.com/nextstrain/nextclade/commits">
+  <a href="https://github.com/valentinelsra/CovSeq/commits?author=valentinelsra">
     <img
-      src="https://img.shields.io/github/last-commit/nextstrain/nextclade?logo=github"
+      src="https://img.shields.io/github/last-commit/CovSeq?logo=github"
       alt="GitHub last commit"
     />
   </a>
 
-  <a href="https://github.com/nextstrain/nextclade/commits">
+  <a href="https://github.com/valentinelsra/CovSeq/commits?author=valentinelsra">
     <img
       src="https://img.shields.io/github/commit-activity/w/nextstrain/nextclade"
       alt="GitHub commit activity"
     />
   </a>
-
-  <a href="https://github.com/nextstrain/nextclade/graphs/contributors">
-    <img
-      src="https://img.shields.io/github/contributors/nextstrain/nextclade?logo=github&label=developers"
-      alt="GitHub contributors"
-    />
-  </a>
-
-  <a href="https://deepscan.io/dashboard#view=project&tid=8207&pid=12611&bid=195750">
-    <img src="https://deepscan.io/api/teams/8207/projects/12611/branches/195750/badge/grade.svg" alt="DeepScan grade">
-  </a>
 </p>
 
-</p>
-
----
-
-<p align="center">
-  <a href="https://clades.nextstrain.org" target="_blank" rel="noopener noreferrer" >
-    <img height="50px"
-      src="https://img.shields.io/badge/%F0%9F%8C%8E%20Visit%20clades.nextstrain.org-%23aa1718.svg"
-      alt="Visit clades.nextstrain.org button"
-    />
-  </a>
-</p>
-
-<p align="center">
-
-  <a href="https://docs.nextstrain.org/projects/nextclade/en/latest/">
-    <img height="30px"
-      src="https://img.shields.io/badge/%F0%9F%93%97%20Documentation-%231773B2.svg"
-      alt="Documentation button"
-    />
-  </a>
-
-  <a href="https://github.com/nextstrain/nextclade/issues/new">
-    <img height="30px"
-      src="https://img.shields.io/badge/%F0%9F%93%A2%20Report%20Issue-%2317992a.svg"
-      alt="Report issue button"
-    />
-  </a>
-
-  <a href="https://github.com/nextstrain/nextclade/issues/new">
-    <img height="30px"
-      src="https://img.shields.io/badge/%E2%9C%A8%20Request%20feature-%2317992a.svg"
-      alt="Request feature button"
-    />
-  </a>
-
-  <a href="https://discussion.nextstrain.org">
-    <img height="30px"
-      src="https://img.shields.io/badge/%F0%9F%92%AC%20Join%20discussion-%23d99852.svg"
-      alt="Discuss button"
-    />
-  </a>
 </p>
 
 ---
