@@ -13,7 +13,7 @@ Processing data from whole-genome sequencing of sars-cov-2.
 
 Run the nextclade docker image with multi.fasta file from the latest output of sars-cov-2 artic pipeline.
 
-![Link to nextclade docker image.]("https://hub.docker.com/r/nextstrain/nextclade")
+[Link to nextclade docker image.]("https://hub.docker.com/r/nextstrain/nextclade")
  
 ### 📦 Requirements
 
