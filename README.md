@@ -1,19 +1,3 @@
-
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
-
-### PRE-REQUIS
-
-
-
-Pull de la dernière version de l’image docker nextclade :
-docker pull nextstrain/nextclade:latest
-
-Cron à implémenter dans crontab -e :
-0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1
-
-Permissions ok :
-chmod 777 /path/to/nextclade.sh
-
 <h1 id="CovSeq" align="center">
 CovSeq
 </h1>
@@ -24,28 +8,7 @@ Processing data from whole-genome sequencing of sars-cov-2.
 
 
 <p align="center">
-  <a href="https://app.circleci.com/pipelines/github/nextstrain/nextclade?branch=master">
-    <img src="https://img.shields.io/circleci/build/github/nextstrain/nextclade/master?label=build%3Amaster" alt="CircleCI master branch">
-  </a>
-
-  <a href="https://app.circleci.com/pipelines/github/nextstrain/nextclade?branch=staging">
-    <img src="https://img.shields.io/circleci/build/github/nextstrain/nextclade/staging?label=build%3Astaging" alt="CircleCI staging branch">
-  </a>
-
-  <a href="https://app.circleci.com/pipelines/github/nextstrain/nextclade?branch=release">
-    <img src="https://img.shields.io/circleci/build/github/nextstrain/nextclade/release?label=build%3Arelease" alt="CircleCI release branch">
-  </a>
-
-  <a href="https://app.circleci.com/pipelines/github/nextstrain/nextclade?branch=release-cli">
-    <img src="https://img.shields.io/circleci/build/github/nextstrain/nextclade/release-cli?label=build%3Arelease-cli" alt="CircleCI release-cli branch">
-  </a>
-
-  <a href="https://securityheaders.com/?q=clades.nextstrain.org&followRedirects=on">
-    <img src="https://img.shields.io/security-headers?url=https%3A%2F%2Fclades.nextstrain.org" alt="Security Headers" />
-  </a>
-  <a href="https://observatory.mozilla.org/analyze/clades.nextstrain.org">
-    <img src="https://img.shields.io/mozilla-observatory/grade/clades.nextstrain.org" alt="Mozilla Observatory" />
-  </a>
+  [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 </p>
 
 <p align="center">
@@ -88,14 +51,26 @@ Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 </h3>
 - Installation de Augur requise pour exécuter nextclade :
 
-python3 -m pip install nextstrain-augur
+``` python3 -m pip install nextstrain-augur ```
 
--  
+-  Pull de la dernière version de l’image docker nextclade :
 
-<h2 id="documentation" align="center">
+``` docker pull nextstrain/nextclade:latest ```
+
+- Cron à implémenter dans crontab -e :
+- 
+``` 0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1 ```
+
+- Permissions ok :
+
+``` chmod 777 /path/to/nextclade.sh ```
+
+
+<h2 id="pangolin" align="center">
 💻✨ Pangolin Analysis
 </h2>
 
+---
 
 It is maintained by:
 
@@ -124,6 +99,8 @@ It is maintained by:
 </table>
 
 I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
+
+---
 
 <h2 id="license" align="center">
 ⚖️ License
