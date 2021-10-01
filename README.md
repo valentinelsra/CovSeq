@@ -64,14 +64,3 @@ Run the docker image of nextclade with multi.fasta file from the latest sars-cov
   </td>
   </tr>
 </table>
-
-I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people.
----
-
-<h2 id="license" align="center">
-⚖️ License
-</h2>
-
-<p align="center">
-  <a target="_blank" rel="noopener noreferrer" href="../../LICENSE" alt="License file">MIT License</a>
-</p>
