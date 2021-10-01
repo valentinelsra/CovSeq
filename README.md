@@ -3,8 +3,7 @@
 
 ### PRE-REQUIS
 
-Installation de Augur requise pour exécuter nextclade :
-python3 -m pip install nextstrain-augur
+
 
 Pull de la dernière version de l’image docker nextclade :
 docker pull nextstrain/nextclade:latest
@@ -15,50 +14,14 @@ Cron à implémenter dans crontab -e :
 Permissions ok :
 chmod 777 /path/to/nextclade.sh
 
-<h1 id="nextclade" align="center">
+<h1 id="CovSeq" align="center">
 CovSeq
 </h1>
 
-<h4 id="nextclade" align="center">
+<h4 id="CovSeq" align="center">
 Processing data from whole-genome sequencing of sars-cov-2.
 </h4>
 
-<p align="center">
-by Nextstrain team
-</p>
-
-<p align="center">
-  <a target="_blank" rel="noopener noreferrer" href="https://clades.nextstrain.org">
-    🌎 clades.nextstrain.org
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/nextstrain/nextclade/master/docs/assets/ui.gif" target="_blank" rel="noopener noreferrer"  alt="Link to animated screenshot of the application, showcasing the user interface on main page">
-    <img
-      width="100%"
-      height="auto"
-      src="https://raw.githubusercontent.com/nextstrain/nextclade/master/docs/assets/ui.gif"
-      alt="Animated screenshot of the application, showcasing the user interface on main page"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a target="_blank" rel="noopener noreferrer" href="LICENSE">
-    <img src="https://img.shields.io/github/license/nextstrain/nextclade" alt="License" />
-  </a>
-
-  <a href="https://clades.nextstrain.org/">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Fclades.nextstrain.org&logo=circle&logoColor=white&label=clades.nextstrain.org" />
-  </a>
-  <a href="https://nextstrain:nextstrain@staging.clades.nextstrain.org/">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Fnextstrain%3Anextstrain%40staging.clades.nextstrain.org&logo=circle&logoColor=white&label=staging.clades.nextstrain.org" />
-  </a>
-  <a href="https://nextstrain:nextstrain@master.clades.nextstrain.org/">
-    <img src="https://img.shields.io/website?url=https%3A%2F%2Fnextstrain%3Anextstrain%40master.clades.nextstrain.org&logo=circle&logoColor=white&label=master.clades.nextstrain.org" />
-  </a>
-</p>
 
 <p align="center">
   <a href="https://app.circleci.com/pipelines/github/nextstrain/nextclade?branch=master">
@@ -111,55 +74,6 @@ by Nextstrain team
     <img src="https://deepscan.io/api/teams/8207/projects/12611/branches/195750/badge/grade.svg" alt="DeepScan grade">
   </a>
 </p>
-
-<p align="center">
-  <a href="https://anaconda.org/bioconda/nextclade">
-    <img
-      src="https://anaconda.org/bioconda/nextclade/badges/version.svg"
-      alt="Nextclade"
-    />
-  </a>
-
-  <a href="https://usegalaxy.eu/root?tool_id=nextclade">
-    <img
-      src="https://img.shields.io/badge/usegalaxy-.eu-brightgreen?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KD0UqkwAAAn9JREFUOBGlVEuLE0EQruqZiftwDz4QYT1IYM8eFkHFw/4HYX+GB3/B4l/YP+CP8OBNTwpCwFMQXAQPKtnsg5nJZpKdni6/6kzHvAYDFtRUT71f3UwAEbkLch9ogQxcBwRKMfAnM1/CBwgrbxkgPAYqlBOy1jfovlaPsEiWPROZmqmZKKzOYCJb/AbdYLso9/9B6GppBRqCrjSYYaquZq20EUKAzVpjo1FzWRDVrNay6C/HDxT92wXrAVCH3ASqq5VqEtv1WZ13Mdwf8LFyyKECNbgHHAObWhScf4Wnj9CbQpPzWYU3UFoX3qkhlG8AY2BTQt5/EA7qaEPQsgGLWied0A8VKrHAsCC1eJ6EFoUd1v6GoPOaRAtDPViUr/wPzkIFV9AaAZGtYB568VyJfijV+ZBzlVZJ3W7XHB2RESGe4opXIGzRTdjcAupOK09RA6kzr1NTrTj7V1ugM4VgPGWEw+e39CxO6JUw5XhhKihmaDacU2GiR0Ohcc4cZ+Kq3AjlEnEeRSazLs6/9b/kh4eTC+hngE3QQD7Yyclxsrf3cpxsPXn+cFdenF9aqlBXMXaDiEyfyfawBz2RqC/O9WF1ysacOpytlUSoqNrtfbS642+4D4CS9V3xb4u8P/ACI4O810efRu6KsC0QnjHJGaq4IOGUjWTo/YDZDB3xSIxcGyNlWcTucb4T3in/3IaueNrZyX0lGOrWndstOr+w21UlVFokILjJLFhPukbVY8OmwNQ3nZgNJNmKDccusSb4UIe+gtkI+9/bSLJDjqn763f5CQ5TLApmICkqwR0QnUPKZFIUnoozWcQuRbC0Km02knj0tPYx63furGs3x/iPnz83zJDVNtdP3QAAAABJRU5ErkJggg=="
-      alt="European Galaxy server"
-    />
-  </a>
-
-</p>
-
-<p align="center">
-
-  <a href="packages/web/package.json">
-    <img
-      src="https://img.shields.io/github/package-json/v/nextstrain/nextclade/master/packages/web?label=web&logo=npm"
-      alt="package.json version"
-    />
-  </a>
-
-  <a href="https://github.com/nextstrain/nextclade/releases">
-    <img src="https://img.shields.io/github/v/release/nextstrain/nextclade?logo=github&label=cli" alt="GitHub releases">
-  </a>
-
-  <a href="https://hub.docker.com/r/nextstrain/nextalign">
-      <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextalign">
-  </a>
-  
-  <a href="https://hub.docker.com/r/nextstrain/nextclade">
-      <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
-  </a>
-
-</p>
-
-<p align="center">
-
-  <a href="https://joss.theoj.org/papers/b0e8e7f231ddfc61616de6b56f32b79f">
-    <img 
-      src="https://joss.theoj.org/papers/b0e8e7f231ddfc61616de6b56f32b79f/status.svg"
-      alt="JOSS submission status"
-    />
-  </a>
 
 </p>
 
@@ -215,11 +129,21 @@ by Nextstrain team
 Viral genome clade assignment, mutation calling, and sequence quality checks
 Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 
-📖 ⚠️ 🌍
+<a href="https://hub.docker.com/r/nextstrain/nextclade">
+      <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
+  </a>
+
+
+📖 ⚠️ 🌍 🔧
 
 <h3 id="prerequis" align="center">
 📦 Pré-requis
-- 
+</h3>
+- Installation de Augur requise pour exécuter nextclade :
+
+python3 -m pip install nextstrain-augur
+
+-  
 
 <h2 id="documentation" align="center">
 💻✨ Pangolin Analysis
@@ -228,12 +152,12 @@ Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 
 It is maintained by:
 
-<table>
+<table align="center">
   <tr>
   <td align="center">
 <p align="center">
   <p align="center">
-    <a href="https://github.com/valentinelsra"> https://avatars.githubusercontent.com/<username>
+    <a href="https://github.com/valentinelsra"> 
       <img src="https://avatars.githubusercontent.com/valentinelsra" width="100px;" alt=""/>
     </a> 
   </p>
@@ -253,28 +177,6 @@ It is maintained by:
 </table>
 
 I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/emmahodcroft"><img src="https://avatars1.githubusercontent.com/u/14290674?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emma Hodcroft</b></sub></a><br /><a href="#ideas-emmahodcroft" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nextstrain/nextclade/commits?author=emmahodcroft" title="Tests">⚠️</a> <a href="#talk-emmahodcroft" title="Talks">📢</a> <a href="https://github.com/nextstrain/nextclade/pulls?q=is%3Apr+reviewed-by%3Aemmahodcroft" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://tsibley.net/"><img src="https://avatars2.githubusercontent.com/u/79913?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Sibley</b></sub></a><br /><a href="#infra-tsibley" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#security-tsibley" title="Security">🛡️</a></td>
-    <td align="center"><a href="http://theo.io/"><img src="https://avatars.githubusercontent.com/u/19732295?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Theo Sanderson</b></sub></a><br /><a href="https://github.com/nextstrain/nextclade/commits?author=theosanderson" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.natalieastroud.com/"><img src="https://avatars3.githubusercontent.com/u/17433156?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Natalie Stroud</b></sub></a><br /><a href="#content-stroudn1" title="Content">🖋</a> <a href="#translation-stroudn1" title="Translation">🌍</a></td>
-    <td align="center"><a href="http://www.rubinsteyn.com/"><img src="https://avatars.githubusercontent.com/u/48441?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Rubinsteyn</b></sub></a><br /><a href="https://github.com/nextstrain/nextclade/commits?author=iskandr" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/molecules"><img src="https://avatars.githubusercontent.com/u/345060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Bottoms</b></sub></a><br /><a href="https://github.com/nextstrain/nextclade/commits?author=molecules" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://finlaymagui.re/"><img src="https://avatars.githubusercontent.com/u/1698629?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Finlay Maguire</b></sub></a><br /><a href="https://github.com/nextstrain/nextclade/commits?author=fmaguire" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the <a target="_blank" rel="noopener noreferrer" href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome!
-
 
 <h2 id="license" align="center">
 ⚖️ License
