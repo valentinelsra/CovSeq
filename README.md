@@ -3,7 +3,7 @@ CovSeq
 </h1>
 
 <p id="CovSeq" align="center">
-Processing data from whole-genome sequencing of sars-cov-2. 
+💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
 <p align="center">
@@ -11,23 +11,27 @@ Processing data from whole-genome sequencing of sars-cov-2.
 </p>
 
 
-
+---
 
 
 
 <h2 id="nextclade" align="center">
-💻🐋 Nextclade Analysis
+Nextclade Analysis
 </h2>
 
 <p align="center">
-Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
+🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
 <p align="center">
 Output: Viral genome clade assignment, mutation calling, and sequence quality checks.
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> 
 </p>
-   
+
+<p align="center">
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> 
+</p>   
+ 
+ 
 <h3 id="prerequis" align="center">
 📦 Requirements
 </h3>
@@ -42,7 +46,7 @@ Output: Viral genome clade assignment, mutation calling, and sequence quality ch
 ``` docker pull nextstrain/nextclade:latest ```
 
 - Cron à implémenter dans crontab -e :
-- 
+
 ``` 0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1 ```
 
 - Permissions ok :
