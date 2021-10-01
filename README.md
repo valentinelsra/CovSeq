@@ -3,13 +3,13 @@ CovSeq
 </h1>
 
 <p id="CovSeq" align="center">
-💻 Processing data from whole-genome sequencing of sars-cov-2. 
+Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
 
 
 
-## 🐋 Nextclade Analysis
+## 💻 Nextclade Analysis
 
 Run the nextclade docker image with multi.fasta file from the latest output of sars-cov-2 pipeline.
 
@@ -35,7 +35,7 @@ You need to install Docker, than :
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-## 🌍 Pangolin Analysis
+## 💻 Pangolin Analysis
 
 ---
 
