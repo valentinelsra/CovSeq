@@ -14,10 +14,9 @@ Processing data from whole-genome sequencing of sars-cov-2.
 </h2>
   
 Viral genome clade assignment, mutation calling, and sequence quality checks
-Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 
 <a href="https://hub.docker.com/r/nextstrain/nextclade">
-      <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
+   Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
   </a>
 
 
