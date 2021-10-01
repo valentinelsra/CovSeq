@@ -23,6 +23,7 @@ Nextclade Analysis
 </h3>
 
 <p align="center"
+   
 - Installation de Augur requise pour exécuter nextclade :
 
 ``` python3 -m pip install nextstrain-augur ```
@@ -39,7 +40,7 @@ Nextclade Analysis
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-</p>
+/p>
 
 <h2 id="pangolin" align="center">
 🌍 Pangolin Analysis
