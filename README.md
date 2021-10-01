@@ -1,20 +1,20 @@
 <h1 id="CovSeq" align="center">
-💻 CovSeq 
+CovSeq 
 </h1>
 
 <p id="CovSeq" align="center">
-<img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg"> Processing data from whole-genome sequencing of sars-cov-2. 
+💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
 
 ---
 
 <h2 id="nextclade" align="center">
-🐋 Nextclade Analysis
+Nextclade Analysis
 </h2>
 
 <p align="center">
-Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
+🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
 <p align="center">
@@ -82,9 +82,7 @@ Run the docker image of nextclade with multi.fasta file from the latest sars-cov
   </tr>
 </table>
 
-I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
-
-📖 ⚠️ 🔧
+I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people.
 ---
 
 <h2 id="license" align="center">
