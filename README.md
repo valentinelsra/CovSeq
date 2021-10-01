@@ -16,11 +16,11 @@ Processing data from whole-genome sequencing of sars-cov-2.
 </h1>
 
 <p align="center">
-Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
-<p>
-Viral genome clade assignment, mutation calling, and sequence quality checks. <img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
+<p align="center">
+Outputs: Viral genome clade assignment, mutation calling, and sequence quality checks.
 </p>
 
 
