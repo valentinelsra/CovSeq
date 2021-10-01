@@ -8,7 +8,7 @@ Processing data from whole-genome sequencing of sars-cov-2.
 
 
 <p align="center">
-  ![build succeeded](https://img.shields.io/badge/build-succeeded-brightgreen.svg)
+  <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
 </p>
 
 ---
