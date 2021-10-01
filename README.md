@@ -16,15 +16,14 @@ Processing data from whole-genome sequencing of sars-cov-2.
 </h1>
 
 <p align="center">
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
+Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
 <p align="center">
-Outputs: Viral genome clade assignment, mutation calling, and sequence quality checks.
+Output: Viral genome clade assignment, mutation calling, and sequence quality checks.
 </p>
 
-
-📖 ⚠️ 🌍 🔧
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> 
 
 <h3 id="prerequis" align="center">
 📦 Requirements
@@ -87,6 +86,7 @@ Maintained by :
 
 I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
 
+📖 ⚠️ 🌍 🔧
 ---
 
 <h2 id="license" align="center">
