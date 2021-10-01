@@ -1,6 +1,12 @@
 <h4 id="CovSeq" align="center">
-Processing data from whole-genome sequencing of sars-cov-2. <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
+Processing data from whole-genome sequencing of sars-cov-2. 
 </h4>
+
+<p
+   <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
+</p>
+
+
 
 
 <h2 id="nextclade" align="center">
@@ -20,6 +26,8 @@ Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 <h3 id="prerequis" align="center">
 📦 Pré-requis
 </h3>
+
+
 - Installation de Augur requise pour exécuter nextclade :
 
 ``` python3 -m pip install nextstrain-augur ```
@@ -37,13 +45,18 @@ Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
 ``` chmod 777 /path/to/nextclade.sh ```
 
 
+
 <h2 id="pangolin" align="center">
 💻✨ Pangolin Analysis
 </h2>
 
+
+
 ---
 
-It is maintained by:
+<h2 id="maintenedby" align="center">
+Maintained by :
+</h2>
 
 <table align="center">
   <tr>
