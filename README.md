@@ -1,13 +1,9 @@
 <h1 id="CovSeq" align="center">
-CovSeq 
+💻 CovSeq 
 </h1>
 
-<p id="CovSeq" align="center">
-💻 Processing data from whole-genome sequencing of sars-cov-2. 
-</p>
-
-<p align="center">
-   <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
+<p id="CovSeq">
+<img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg"> Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
 
@@ -16,20 +12,16 @@ CovSeq
 
 
 <h2 id="nextclade" align="center">
-Nextclade Analysis
+🐋 Nextclade Analysis
 </h2>
 
-<p align="center">
-🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
+<p>
+Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 </p>
    
-<p align="center">
-Output: Viral genome clade assignment, mutation calling, and sequence quality checks.
-</p>
-
-<p align="center">
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade"> 
-</p>   
+<p>
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">  Output: Viral genome clade assignment, mutation calling, and sequence quality checks.
+</p> 
  
  
 <h3 id="prerequis" align="center">
@@ -56,7 +48,7 @@ Output: Viral genome clade assignment, mutation calling, and sequence quality ch
 
 
 <h2 id="pangolin" align="center">
-💻✨ Pangolin Analysis
+🌍 Pangolin Analysis
 </h2>
 
 
@@ -64,7 +56,7 @@ Output: Viral genome clade assignment, mutation calling, and sequence quality ch
 ---
 
 <h2 id="maintenedby" align="center">
-Maintained by :
+✨ Maintained by :
 </h2>
 
 <table align="center">
@@ -93,7 +85,7 @@ Maintained by :
 
 I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
 
-📖 ⚠️ 🌍 🔧
+📖 ⚠️ 🔧
 ---
 
 <h2 id="license" align="center">
