@@ -1,11 +1,6 @@
 <h4 id="CovSeq" align="center">
-Processing data from whole-genome sequencing of sars-cov-2.
+Processing data from whole-genome sequencing of sars-cov-2. <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
 </h4>
-
-
-<p align="center">
-  <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
-</p>
 
 
 <h2 id="nextclade" align="center">
