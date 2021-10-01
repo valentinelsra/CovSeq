@@ -21,7 +21,6 @@ CovSeq
 
 <h4 id="nextclade" align="center">
 Processing data from whole-genome sequencing of sars-cov-2.
-Viral genome clade assignment, mutation calling, and sequence quality checks
 </h4>
 
 <p align="center">
@@ -209,55 +208,22 @@ by Nextstrain team
 ---
 
 
+<h2 id="nextclade" align="center">
+💻🐋 Nextclade Analysis
+</h2>
+  
+Viral genome clade assignment, mutation calling, and sequence quality checks
+Docker Image of Nextclade: https://docs.nextstrain.org/projects/nextclade
+
+📖 ⚠️ 🌍
+
+<h3 id="prerequis" align="center">
+📦 Pré-requis
+- 
+
 <h2 id="documentation" align="center">
-📗 Documentation
+💻✨ Pangolin Analysis
 </h2>
-
- - Documentation for Nextclade: https://docs.nextstrain.org/projects/nextclade
- - Documentation for the parent project, Nextstrain: https://docs.nextstrain.org
-
-
-<h2 id="documentation" align="center">
-🧑‍💻 Development
-</h2>
-
-If you are a developer, curious about how Nextclade and Nextalign work, want to modify it or contribute new features or fixes, check out out developer's guides:
-
- - ["Developer's guide: Nextclade CLI and Nextalign CLI"](docs/dev/developers-guide-cli.md)
-
- - ["Developer's guide: Nextclade Web"](docs/dev/developers-guide-web.md)
-
-<h2 id="packages" align="center">
-📦 Packages
-</h2>
-
-
-This repository consists of a set of packages presented in the table below. Refer to README files of individual packages for more details.
-
-| Package                                    | Type               | Get                                                                    | Docker images                                                            |
-| -------------------------------------------| -------------------| ---------------------------------------------------------------------- | -------------------------------------------------------------------------|
-| [nextalign](/packages/nextalign)           | C++ library        |                                                                        |                                                                          |
-| [nextalign_cli](/packages/nextalign_cli)   | C++ executable     | 📥 [Github Releases](https://github.com/nextstrain/nextclade/releases) | 🐋 [nextstrain/nextalign](https://hub.docker.com/r/nextstrain/nextalign) |
-| [nextclade](/packages/nextclade)           | C++ library        |                                                                        |                                                                          |
-| [nextclade_cli](/packages/nextclade_cli)   | C++ executable     | 📥 [Github Releases](https://github.com/nextstrain/nextclade/releases) | 🐋 [nextstrain/nextclade](https://hub.docker.com/r/nextstrain/nextclade) |
-| [nextclade_wasm](/packages/nextclade_wasm) | WebAssembly module |                                                                        |                                                                          |
-| [nextclade_web](/packages/web)             | Web App            | 🌎 [clades.nextstrain.org](https://clades.nextstrain.org)              |                                                                          |
-
-
-<h2 id="team" align="center">
- ✨ Team
-</h2>
-
-<p>
-Nextclade is a part of 
-<a target="_blank" rel="noopener noreferrer" href="https://nextstrain.org">
-<img height="15px"
-  src="https://github.com/nextstrain/nextclade/blob/master/docs/assets/nextstrain_logo.svg"
-  alt="Nextstrain logo"
-/>
-<span> </span>
-<span>Nextstrain project</span>
-</a>.</p>
 
 
 It is maintained by:
@@ -267,46 +233,26 @@ It is maintained by:
   <td align="center">
 <p align="center">
   <p align="center">
-    <a href="https://github.com/ivan-aksamentov">
-      <img src="https://avatars.githubusercontent.com/u/9403403?s=100&&v=4" width="100px;" alt=""/>
+    <a href="https://github.com/valentinelsra"> https://avatars.githubusercontent.com/<username>
+      <img src="https://avatars.githubusercontent.com/valentinelsra" width="100px;" alt=""/>
     </a> 
   </p>
   <p align="center">
     <p align="center">
-      <a href="https://github.com/ivan-aksamentov">
-      Ivan Aksamentov
+      <a href="https://github.com/valentinelsra">
+      Valentine Lesourd-Aubert
       </a>
     </p>
     <p align="center">
-      <small>Senior Software Engineer</small></br>
-      <small>NeherLab, Biozentrum, University of Basel</small></br>
+      <small>Junior Bio-informatician</small></br>
+      <small>COVID Platform, Virology Service, CHU Bordeaux</small></br>
     </p>
   </p>
   </td>
-
-  <td align="center">
-  <p align="center">
-    <a href="https://github.com/rneher">
-      <img src="https://avatars.githubusercontent.com/u/8379168?s=100&&v=4" width="100px;" alt=""/>
-    </a> 
-  </p>
-  <p align="center">
-    <p align="center">
-      <a href="https://github.com/rneher">
-      Richard Neher
-      </a>
-    </p>
-    <p align="center">
-      <small>Principal Investigator</small></br>
-      <small>NeherLab, Biozentrum, University of Basel</small></br>
-    </p>
-  </p>
-</p>
-</td>
   </tr>
 </table>
 
-We are thankful to all our contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
+I am thankful to all contributors, no matter how they contribute: in ideas, science, code, documentation or otherwise. Thanks goes to these people (<a target="_blank" rel="noopener noreferrer" href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -325,30 +271,9 @@ We are thankful to all our contributors, no matter how they contribute: in ideas
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the <a target="_blank" rel="noopener noreferrer" href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome!
-
-
-<h2 id="sponsors" align="center">
-🏢 Sponsors
-</h2>
-
-We are thankful to the following companies who supported us:
-
-<table>
-<tr>
-<td align="center">
-<a target="_blank" rel="noopener noreferrer" href="https://vercel.com/?utm_source=nextstrain">
-<img src="packages/web/src/assets/img/powered-by-vercel.svg" width="150px" alt="Vercel logo" />
-</a>
-</td>
-<td align="center">
-Vercel for sponsoring Nextclade builds on their platform
-</td>
-</tr>
-</table>
 
 
 <h2 id="license" align="center">
