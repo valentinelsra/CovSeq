@@ -15,14 +15,14 @@ Nextclade Analysis
 </p>
    
 <p align="center">
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">  Viral genome clade assignment, mutation calling, and sequence quality checks.
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
 </p> 
  
 <h3 id="prerequis" align="center">
 📦 Requirements
 </h3>
 
-<p align="center"
+<p align="center">
    
 - Installation de Augur requise pour exécuter nextclade :
 
@@ -40,7 +40,7 @@ Nextclade Analysis
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-/p>
+</p>
 
 <h2 id="pangolin" align="center">
 🌍 Pangolin Analysis
