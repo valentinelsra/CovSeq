@@ -6,17 +6,13 @@ CovSeq
 💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
-# Nextclade Analysis
+## Nextclade Analysis
 
 🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
 
 ![nextclade]("https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade")
  
-<h3 id="prerequis" align="center">
-📦 Requirements
-</h3>
-
-<p align="center">
+### 📦 Requirements
    
 - Installation de Augur requise pour exécuter nextclade :
 
@@ -34,16 +30,7 @@ CovSeq
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-</p>
-
-<h3 id="pangolin" align="center">
-🌍 Pangolin Analysis
-</h3>
-
-<p>
-   
-   
-</p>
+## 🌍 Pangolin Analysis
 
 ---
 
