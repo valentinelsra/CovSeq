@@ -9,7 +9,10 @@
 
 ---
 
-
+<p>
+   
+   
+</p>
 
 <h2 id="nextclade" align="center">
 🐋 Nextclade Analysis
@@ -20,9 +23,13 @@ Run the docker image of nextclade with multi.fasta file from the latest sars-cov
 </p>
    
 <p>
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">  Output: Viral genome clade assignment, mutation calling, and sequence quality checks.
+<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">  Viral genome clade assignment, mutation calling, and sequence quality checks.
 </p> 
  
+<p>
+   
+   
+</p>
  
 <h3 id="prerequis" align="center">
 📦 Requirements
@@ -45,13 +52,19 @@ Run the docker image of nextclade with multi.fasta file from the latest sars-cov
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
-
+<p>
+   
+   
+</p>
 
 <h2 id="pangolin" align="center">
 🌍 Pangolin Analysis
 </h2>
 
-
+<p>
+   
+   
+</p>
 
 ---
 
