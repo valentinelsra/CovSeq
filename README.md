@@ -22,7 +22,7 @@ Nextclade Analysis
 📦 Requirements
 </h3>
 
-<p align="center">
+<p align="center"
 - Installation de Augur requise pour exécuter nextclade :
 
 ``` python3 -m pip install nextstrain-augur ```
