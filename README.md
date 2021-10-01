@@ -8,25 +8,7 @@ Processing data from whole-genome sequencing of sars-cov-2.
 
 
 <p align="center">
-  [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-</p>
-
-<p align="center">
-  <a href="https://github.com/valentinelsra/CovSeq/commits?author=valentinelsra">
-    <img
-      src="https://img.shields.io/github/last-commit/CovSeq?logo=github"
-      alt="GitHub last commit"
-    />
-  </a>
-
-  <a href="https://github.com/valentinelsra/CovSeq/commits?author=valentinelsra">
-    <img
-      src="https://img.shields.io/github/commit-activity/w/nextstrain/nextclade"
-      alt="GitHub commit activity"
-    />
-  </a>
-</p>
-
+  ![build succeeded](https://img.shields.io/badge/build-succeeded-brightgreen.svg)
 </p>
 
 ---
