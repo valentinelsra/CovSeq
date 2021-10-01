@@ -2,7 +2,7 @@
 Processing data from whole-genome sequencing of sars-cov-2. 
 </h6>
 
-<p>
+<p align="center">
    <img alt="build succeeded" src="https://img.shields.io/badge/build-succeeded-brightgreen.svg">
 </p>
 
