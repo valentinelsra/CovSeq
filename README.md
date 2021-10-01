@@ -1,9 +1,5 @@
-# CovSeq
-Processing data from whole-genome sequencing of sars-cov-2.
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
-
-## NEXTCLADE ANALYSIS
 
 ### PRE-REQUIS
 
@@ -20,10 +16,11 @@ Permissions ok :
 chmod 777 /path/to/nextclade.sh
 
 <h1 id="nextclade" align="center">
-Nextclade
+CovSeq
 </h1>
 
 <h4 id="nextclade" align="center">
+Processing data from whole-genome sequencing of sars-cov-2.
 Viral genome clade assignment, mutation calling, and sequence quality checks
 </h4>
 
