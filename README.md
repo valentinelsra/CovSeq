@@ -19,19 +19,19 @@ Run the nextclade docker image with multi.fasta file from the latest output of s
 
 You need to install Docker, than :
    
-- Installation de Augur requise pour exécuter nextclade
+- Install augur
 
 ``` python3 -m pip install nextstrain-augur ```
 
--  Pull de la dernière version de l’image docker nextclade
+-  Pull the latest version of nextclade docker image
 
 ``` docker pull nextstrain/nextclade:latest ```
 
-- Cron à implémenter dans crontab -e
+- Create a cron
 
 ``` 0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1 ```
 
-- Permissions ok
+- Set permissions for the executable file
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
