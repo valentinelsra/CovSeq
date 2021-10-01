@@ -16,20 +16,22 @@ Run the nextclade docker image with multi.fasta file from the latest output of s
 ![Link to nextclade docker image.]("https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade")
  
 ### 📦 Requirements
+
+You need to install Docker, than :
    
-- Installation de Augur requise pour exécuter nextclade :
+- Installation de Augur requise pour exécuter nextclade
 
 ``` python3 -m pip install nextstrain-augur ```
 
--  Pull de la dernière version de l’image docker nextclade :
+-  Pull de la dernière version de l’image docker nextclade
 
 ``` docker pull nextstrain/nextclade:latest ```
 
-- Cron à implémenter dans crontab -e :
+- Cron à implémenter dans crontab -e
 
 ``` 0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1 ```
 
-- Permissions ok :
+- Permissions ok
 
 ``` chmod 777 /path/to/nextclade.sh ```
 
