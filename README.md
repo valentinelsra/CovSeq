@@ -6,17 +6,11 @@ CovSeq
 💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
 
-<h2 id="nextclade" align="center">
-Nextclade Analysis
-</h2>
+# Nextclade Analysis
 
-<p align="center">
 🐋 Run the docker image of nextclade with multi.fasta file from the latest sars-cov-2 run.
-</p>
-   
-<p align="center">
-<img alt="Nextclade Docker image version" src="https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade">
-</p> 
+
+![nextclade]("https://img.shields.io/docker/v/nextstrain/nextclade?label=%F0%9F%90%8B%20%20%20docker%3Anextclade")
  
 <h3 id="prerequis" align="center">
 📦 Requirements
