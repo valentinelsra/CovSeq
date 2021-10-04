@@ -58,6 +58,8 @@ if [ -d $dNEXTSEQ ]; then
     docker exec -i "$ID" nextclade --in-order --input-fasta=output/${FA:2} --input-dataset=output/$dOUTPUT/dataset --output-csv=output/$dOUTPUT/nextclade.csv --output-dir=output/$dOUTPUT/ --output-basename=nextclade
     
     echo "EXIT CODE: $?"
+    
+    docker stop "$ID"
 else
     echo "ERROR: Process stopped. Nextseq directory not found".
     exit 1
