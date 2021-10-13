@@ -15,9 +15,9 @@ Processing data from whole-genome sequencing of sars-cov-2. Tested on MacOS.
 
 Little script Bash running the Nextclade and Pangolin docker images with multi.fasta file from the latest output of sars-cov-2 artic pipeline.
 
-[Link to nextclade docker image]("https://hub.docker.com/r/nextstrain/nextclade")
+https://hub.docker.com/r/nextstrain/nextclade
 
-[Link to pangolin docker image]("https://hub.docker.com/r/staphb/pangolin")
+https://hub.docker.com/r/staphb/pangolin
  
 ### 📦 Requirements
 
