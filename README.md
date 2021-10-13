@@ -10,6 +10,8 @@ Processing data from whole-genome sequencing of sars-cov-2.
 [![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
 [![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
 
+Tested on MacOS.
+
 
 ## 💻 Nextclade Analysis
 
@@ -21,14 +23,6 @@ Little script Bash running the nextclade docker image with multi.fasta file from
 
 You need to install Docker, than :
    
-- Install augur
-
-``` python3 -m pip install nextstrain-augur ```
-
--  Pull the latest version of nextclade docker image
-
-``` docker pull nextstrain/nextclade:latest ```
-
 - Create a cron
 
 ``` 0 13 * * * /path/to/nextclade.sh >> /path/to/nextclade.log 2>&1 ```
