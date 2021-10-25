@@ -3,13 +3,8 @@ CovSeq
 </h1>
 
 <p id="CovSeq" align="center">
-Processing data from whole-genome sequencing of sars-cov-2. 
+💻 Processing data from whole-genome sequencing of sars-cov-2. 
 </p>
-
-
-## 💻 lineages.sh
-
-## 💻 emergen.sh / emergen.py
 
 [![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
 
