@@ -8,9 +8,9 @@ CovSeq
 
 [![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)
 
-<h2 id="maintenedby" align="center">
-✨ Maintained by :
-</h2>
+<h1 id="maintenedby" align="center">
+Maintained by :
+</h1>
 
 <table align="center">
   <tr>
