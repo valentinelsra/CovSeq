@@ -38,7 +38,7 @@ runImages () {
 
     #Run de l'image avec le dossier run lie au dossier data du conteneur
     echo "Run '${2}' docker image and mount volume 'output_dir'."
-    sudo /usr/bin/docker run --name $3 -itd -v "/$export_dir:/data" --workdir /data "$1"
+    sudo /usr/bin/docker run --name $3 -itd -v "$export_dir:/data" --workdir /data "$1"
 
     #Run l'analyse avec le fichier fasta
     case "$2" in
@@ -170,6 +170,7 @@ if [ -f $last_file ]; then
                                 commandes=("nextclade" "pangolin")
                                 images=("nextstrain/nextclade:latest" "staphb/pangolin:latest")
                                 new_lin_dir="LINEAGES"
+                                FA="$run_name"_sup95.multi.fasta
                                 
                                 #Run Nextclade and Pangolin images
                                 echo "Nextclade and Pangolin..."
